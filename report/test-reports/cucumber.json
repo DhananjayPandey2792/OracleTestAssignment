@@ -1,0 +1,446 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3919368420,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinition.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To verify accordion text in accordion page",
+        "description": "",
+        "id": "accordion-functionality-in-demoqa;to-verify-accordion-text-in-accordion-page",
+        "after": [
+          {
+            "result": {
+              "duration": 332870,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinition.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3875635417,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i launch url \"https://demoqa.com/accordion/\" in demoqa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://demoqa.com/accordion/",
+                  "offset": 14
+                }
+              ],
+              "location": "Stepdefinition.launchUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81534280,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "validate text Vivamus in section 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 33
+                }
+              ],
+              "location": "Stepdefinition.validateText(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128000421,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate text Vivamus in section 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 33
+                }
+              ],
+              "location": "Stepdefinition.validateText(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138124062,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate text Vivamus in section 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 33
+                }
+              ],
+              "location": "Stepdefinition.validateText(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132739597,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate text Vivamus in section 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 33
+                }
+              ],
+              "location": "Stepdefinition.validateText(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Accordion functionality in demoqa",
+    "description": "",
+    "id": "accordion-functionality-in-demoqa",
+    "keyword": "Feature",
+    "uri": "Accordion.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@demoqa"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 63469697,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinition.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To verify menu navigation in menu page",
+        "description": "",
+        "id": "menu-functionality-in-demoqa;to-verify-menu-navigation-in-menu-page",
+        "after": [
+          {
+            "result": {
+              "duration": 26799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinition.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 582207074,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i launch url \"https://demoqa.com/menu/\" in demoqa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://demoqa.com/menu/",
+                  "offset": 14
+                }
+              ],
+              "location": "Stepdefinition.launchUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 960176464,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i navigate to big band option \"Music-\u003eJazz-\u003eBig Band\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Music-\u003eJazz-\u003eBig Band",
+                  "offset": 31
+                }
+              ],
+              "location": "Stepdefinition.navigateToBigBand(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Menu functionality in demoqa",
+    "description": "",
+    "id": "menu-functionality-in-demoqa",
+    "keyword": "Feature",
+    "uri": "Menu.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@demoqa"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 56180393,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinition.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To verify date selection in demoqa",
+        "description": "",
+        "id": "date-picker-functionality-in-demoqa;to-verify-date-selection-in-demoqa",
+        "after": [
+          {
+            "result": {
+              "duration": 25389,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinition.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 572618705,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i launch url \"https://demoqa.com/datepicker/\" in demoqa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://demoqa.com/datepicker/",
+                  "offset": 14
+                }
+              ],
+              "location": "Stepdefinition.launchUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109340973,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on date input box",
+            "match": {
+              "location": "Stepdefinition.clickDateInput()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148691649,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on previous button",
+            "match": {
+              "location": "Stepdefinition.clickPreviousButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 501289169,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i select a specific date",
+            "match": {
+              "location": "Stepdefinition.selectCalenderDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35629507,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "selected date \"26\" displayed in date input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 15
+                }
+              ],
+              "location": "Stepdefinition.verifyDateDisplayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Date picker functionality in demoqa",
+    "description": "",
+    "id": "date-picker-functionality-in-demoqa",
+    "keyword": "Feature",
+    "uri": "datepicker.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@demoqa"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 34459170,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinition.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To verify upload file in demoqa",
+        "description": "",
+        "id": "keyboard-events-functionality-in-demoqa;to-verify-upload-file-in-demoqa",
+        "after": [
+          {
+            "result": {
+              "duration": 64176,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinition.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 668074314,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i launch url \"https://demoqa.com/keyboard-events/\" in demoqa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://demoqa.com/keyboard-events/",
+                  "offset": 14
+                }
+              ],
+              "location": "Stepdefinition.launchUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 74670937,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on choose file",
+            "match": {
+              "location": "Stepdefinition.chooseFile()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101739249,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on upload button",
+            "match": {
+              "location": "Stepdefinition.fileUpload()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17032825,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "file should be upload",
+            "match": {
+              "location": "Stepdefinition.verifyFile()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "keyboard events functionality in demoqa",
+    "description": "",
+    "id": "keyboard-events-functionality-in-demoqa",
+    "keyword": "Feature",
+    "uri": "keyboardevent.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@demoqa"
+      }
+    ]
+  }
+]
